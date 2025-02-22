@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color:blue;
+        }
+        a:hover{
+            color:red;
+
+        }
+        a:active{
+            color:green;
+        }
+        h1{
+            font-family:Arial;
+            text-shadow:2px 2px 4px #aaa;
+        }
+        p{
+            font-size: 1.2rem;
+            line-height :1.6;
+            text-align:justify;
+        }
+        .card{
+            border:1px solid gray;
+            padding: 20px;
+            margin: 10px;
+            max-width: 300px;
+        }
+        nav{
+            display:flex;   
+            justify-content:space-between;
+            align-items:center;
+            height: 100vh;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+
+        }
+        @media(max-width:600px){
+            .gallery{
+                grid-template-columns: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--unordered List with containing 5 list items(anchor tags)-->
+    <ul>
+        <li><a href="#">aaa</a></li>
+        <li><a href="#">bbb</a></li>
+        <li><a href="#">ccc</a></li>
+        <li><a href="#">ddd</a></li>
+        <li><a href="#">eee</a></li>
+    </ul>
+    <!--heading and paragraph Tag-->
+    <h1>This is a heading tag</h1>
+    <p>janxa addndiqnd adiqndqoid qdojqdo qdq0mndoqm qdonqodqqd  iwnd cjs cjncjjnc cjc</p>
+
+    <!--Div containing a 'class' called card-->
+    <div class="card">
+        Div class containing some text
+    </div>
+
+    <!--Nav element containing anchor tags-->
+    <nav>
+        <a href="#">first</a>
+        <a href="#">second</a>
+        <a href="#">third</a>
+    </nav>
+    <!--Div element with class gallery containing image tags-->
+    <div class="gallery">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH&pid=Api&P=0&h=180" alt="rohith" height="200" width="200">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH&pid=Api&P=0&h=180" alt="ROhith" height="200" width="200">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.G37tgeQqSNt7v2oPfj9ltQHaE7&pid=Api&P=0&h=180" alt="ROHITH" height="200" width="200">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.MCLzVoExgXPyNi_V5gb1AwHaE7&pid=Api&P=0&h=180" alt="ROHith" height="200" width="200">
+    </div>  
+</body>
+</html>
